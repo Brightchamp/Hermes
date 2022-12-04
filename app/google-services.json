@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "164455956915",
+    "firebase_url": "https://hermes-beta-v2.firebaseio.com",
+    "project_id": "hermes-beta-v2",
+    "storage_bucket": "hermes-beta-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164455956915:android:d038f75f802f23b0798bc6",
+        "android_client_info": {
+          "package_name": "com.example.hermesbetav2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164455956915-s2ko63qotrt6esj62njp97kknl3mvt06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hermesbetav2",
+            "certificate_hash": "069cee1279d32e58cbe4fd681e342f3c15bd9116"
+          }
+        },
+        {
+          "client_id": "164455956915-6sg8g0lc311qsdd51u4gh1ttvc24ujkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBha1DJvfaclI67hOxE06TLKeQtmplQj0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164455956915-6sg8g0lc311qsdd51u4gh1ttvc24ujkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

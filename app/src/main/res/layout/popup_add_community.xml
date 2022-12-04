@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/addCommunityTitle"
+            android:text="@string/add_your_community"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="6dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/nameOfCommunity"
+            android:hint="Enter name of Community"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/addCommunityTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/addCommunitySave"
+            android:text="Create Community"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/nameOfCommunity"
+            android:layout_marginTop="6dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
